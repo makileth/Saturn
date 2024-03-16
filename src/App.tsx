@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
     const loader = new GLTFLoader();
     loader.load(
-      "/models/saturn.glb",
+      "/saturn.glb",
       (saturn) => {
         model = saturn.scene; // Assign loaded model to the model variable
         model.scale.set(4, 4, 4);
